@@ -1,16 +1,82 @@
-# React + Vite
+# Expense Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Expense Analytics Dashboard built using React JS and Tailwind CSS. This project helps users keep track of their income and expenses, view financial summaries, and analyze spending with interactive charts. All data is stored in Local Storage, so no backend is required.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add Income and Expense transactions
+- Delete transactions
+- Search transactions by title
+- Filter transactions (All, Income, Expense)
+- Sort transactions by date and amount
+- View Total Balance, Total Income and Total Expense
+- Expense Analysis using Pie Chart
+- Income vs Expense Bar Chart
+- Responsive Dark UI
+- Data stored using Local Storage
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React JS
+- Tailwind CSS
+- Recharts
+- JavaScript (ES6)
+- Vite
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+│── components/
+│── pages/
+│── utils/
+│── App.jsx
+│── main.jsx
+│── index.css
+```
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+2. Open the project
+
+```bash
+cd Expense-Analytics-Dashboard
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Live Demo
+
+**Live Website:**  
+https://YOUR-VERCEL-LINK.vercel.app/
+
+## GitHub Repository
+
+https://github.com/YOUR_USERNAME/Expense-Analytics-Dashboard
+
+## Future Improvements
+
+- Edit Transactions
+- Budget Tracking
+- Export Data
+- Multiple Currency Support
+
+## Author
+
+**Shinjan Verma**
