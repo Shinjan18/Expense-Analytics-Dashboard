@@ -64,11 +64,11 @@ npm run dev
 ## Live Demo
 
 **Live Website:**  
-https://YOUR-VERCEL-LINK.vercel.app/
+https://expense-analytics-dashboard-ruby.vercel.app/
 
 ## GitHub Repository
 
-https://github.com/YOUR_USERNAME/Expense-Analytics-Dashboard
+https://github.com/Shinjan18/Expense-Analytics-Dashboard
 
 ## Future Improvements
 
